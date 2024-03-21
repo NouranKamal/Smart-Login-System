@@ -1,0 +1,90 @@
+body{
+    background: #24353f;
+}
+h1{
+    color: #17A2B8;
+}
+.container{
+    width: 60%;
+    margin: auto;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    padding: 80px;
+}
+#loginBtn.btn , #signupBtn.btn{
+    width: 100%;
+    margin-top: 10px;
+    background-color: #17A2B8;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.container p{
+    color: white;
+    font-size: 16px;
+}
+.container a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.container a:hover{
+    text-decoration: underline;
+}
+.welcome{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    /* padding: 10px 200px 10px 200px; */
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.navContainer{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:992) {
+    .navContainer{
+        width: 100%;
+    }
+}
+.navbar-brand{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.navebar-btn{
+    text-decoration: none;
+    color: white;
+}
+.container .success{
+    font-size: 20px;
+    font-weight: 500;
+}
+#email , #pass , #SignName ,#SignEmail, #SignPass{
+    color: white;
+    font-size: 20px;
+    
+}
+.botton{
+    display: flex;
+    justify-content: center;
+}
+#loginBtn{
+    background-color: #17A2B8;
+    padding: 5px 10px;
+    color: white;
+}
+@media screen and (max-width:992px){
+    .container{
+        width: 90%;
+        margin: auto;
+        padding: 80px 4px; 
+    }
+}

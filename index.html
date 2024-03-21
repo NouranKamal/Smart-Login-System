@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>login</title>
+</head>
+<body>
+    
+    <div class="container my-5 ">
+        <h1 class="text-center mb-4">Smart Login System</h1>
+        <input id="email" type="text" placeholder="Enter Your Email" class="form-control bg-transparent mb-4 ">
+        <input id="pass" type="password" placeholder="Enter Your Password" class="form-control bg-transparent mb-4 ">
+        <p id="incorrectMsg" class="text-danger text-center d-none">incorrect email or password</p>
+        <p id="requiredMsg" class="text-danger text-center d-none">All inputs is required</p>
+       
+            <div class="botton">
+                <button id="loginBtn"><a id="loginlink" >login</a></button>
+            </div>
+
+        <p class="text-center mt-2">Don’t have an account? <a href="signup.html"> Signup</a></p>
+    </div>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+ 
+
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.4.1.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

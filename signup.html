@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>login</title>
+</head>
+<body>
+    
+    <div class="container my-5 ">
+        <h1 class="text-center mb-4">Sign Up</h1>
+        <input id="SignName" type="text" placeholder="Enter Your Name" class="form-control bg-transparent mb-4 ">
+        <input id="SignEmail" type="email" placeholder="Enter Your Email" class="form-control bg-transparent mb-4 ">
+        <input id="SignPass" type="password" placeholder="Enter Password" class="form-control bg-transparent mb-4 ">
+        <p id="success" class="text-center text-success d-none success">Success</p>
+        
+        <p id="requiredMsg" class="text-danger text-center d-none">All inputs is required</p>
+
+        <p id="existMsg" class="text-danger text-center d-none">email already exists</p>
+        <button id="signupBtn" class="btn">Sign Up</button>
+        <p class="text-center mt-2">You have an account? <a href="index.html"> Signin</a></p>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
